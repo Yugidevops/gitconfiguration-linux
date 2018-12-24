@@ -1,0 +1,35 @@
+How to Install Git in Centos:-
+
+1)Connect via SSH:
+
+To install Git on your CentOS,you need to have SSH access to the server.
+
+2)Once you log in you can use the following command to install Git:
+
+$yum install git
+
+3)Verify Git installation on CentOS:
+
+To verify that Git is successfully installed you can use the following command:
+
+$git --version
+
+4)The configuration of Git on CentOS:
+
+The first thing that you might want to do after the installation is to configure your name and email address in Git so the changes you commit contain the correct information. You can do that by using the following commands:
+
+$git config --global user.name "Your Name"
+$git config --global user.email "user@domain.com"
+
+5)List configuration settings:
+To verify that you entered the correct information you can use the command below:
+
+$git config --list
+
+The output should be similar to the following one:
+
+user.name=Your Name
+user.email=user@domain.com
+
+
+
